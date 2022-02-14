@@ -14,6 +14,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = Zclip::Rails::VERSION
 
-  gem.add_dependency 'railties', '< 5.0'
+  gem.add_dependency 'railties', '> 5.0'
   gem.add_dependency 'jquery-rails', '>= 1.0.17'
 end
